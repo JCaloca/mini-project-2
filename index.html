@@ -27,7 +27,61 @@
         </p>
     </section>
     <section>
-        <h2>Flexbox Cloumn</h2>
+        <h2>Flexbox Column</h2>
+        <p>Use this to create a Flexbox column layout</p>
+        <p class="textbox">
+            .column {
+              display: flex;
+              flex-direction: column;
+            }
+        </p>
     </section>
+    <section>
+        <h2>CSS Grid Layout</h2>
+        <p>Build a 12-column layout using CSS Grid</p>
+        <p class="textbox">
+            .grid {
+              display: grid;
+              width: 100%;
+              grid-template-columns: repeat(12, 1fr);
+            }
+        </p>
+    </section>
+    <section>
+        <h2>Linear Gradients</h2>
+        <p>This will create a background linear gradient from top to bottom</p>
+        <p class="textbox">
+            .linear-gradient-background {
+              background-image: linear-gradient (
+                rgba(232, 102, 236, 0.3) 0%,
+                rgba(232, 102, 236, 0.6) 100%,
+              );
+            }
+        </p>
+    </section>
+    <section>
+        <h2>Linear Gradients</h2>
+        <p>Use transition and box shadows to glow on hover</p>
+        <p class="textbox">
+            .code-card .card-header {
+                broder radius: 8px;
+            }
+            .code-card:hover,
+            .code-card:hover .card-header {
+                box-shadow: inset 0px 0px 8px
+                rgba(232, 102, 236, 1) 0 0 15px
+                rgba(232, 102, 236, 1);
+            }
+        </p>
+        <section>
+            <h2>Overlay Card with Title</h2>
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <p class="textbox">
+                .card-header {
+                  position: relative;
+                  margin-top: -20px;
+                }
+            </p>
+        </section>   
 </body>
 </html>
