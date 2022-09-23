@@ -1,0 +1,27 @@
+:root {
+    --purple: purple;
+    --light: #fff;
+    --background-color: grey; 
+  }
+
+  * {
+    background-color: var(--background-color);
+  }
+  h1 {
+    color: var(--purple);
+  }
+
+  header p {
+    color: var(--light);
+  }
+
+  h2 {
+    color: var(--purple);
+    font-size: 150%;
+
+
+  }
+
+  p {
+
+  }
