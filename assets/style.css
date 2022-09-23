@@ -11,6 +11,10 @@
     color: var(--purple);
   }
 
+  p {
+    color: var(--light)
+
+  }
   header p {
     color: var(--light);
   }
@@ -18,10 +22,16 @@
   h2 {
     color: var(--purple);
     font-size: 150%;
-
-
   }
 
-  p {
+  .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+  .box {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
   }
